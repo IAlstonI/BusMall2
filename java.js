@@ -34,7 +34,7 @@ new ItemImage('four');
 new ItemImage('five');
 new ItemImage('six');
 new ItemImage('seven');
-new ItemImage('eight');
+new ItemImage('Ferrari');
 new ItemImage('nine');
 new ItemImage('ten');
 new ItemImage('eleven');
