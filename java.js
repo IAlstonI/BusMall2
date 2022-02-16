@@ -57,23 +57,25 @@ var data = {
         backgroundColor: [
             'blue',
             'darkgray',
-            'lightpurple',
+            'black',
             'lightblue',
             'navy',
             'blue',
             'darkgray',
-            'lightpurple',
+            'black',
             'lightblue',
             'navy',
             'blue',
             'darkgray',
-            'lightpurple',
+            'black',
             'lightblue',
             'navy',
             'blue',
             'darkgray',
-            'lightpurple'
+            'black',
+            'lightblue'
         ],
+
         hoverBackgroundColor: [
             'purple',
             'purple',
@@ -100,7 +102,7 @@ var data = {
 function drawChart() {
     var ctx = document.getElementById('voting-chart').getContext('2d');
     finalChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'pie',
         data: data,
         options: {
             responsive: false,
