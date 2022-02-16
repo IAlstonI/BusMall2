@@ -43,9 +43,9 @@ new ItemImage('thirteen');
 new ItemImage('fourteen');
 new ItemImage('fifteen');
 new ItemImage('sixteen');
-new ItemImage('nineteen');
 new ItemImage('seventeen');
 new ItemImage('eighteen');
+new ItemImage('nineteen');
 
 // CHART data and fucntion
 
