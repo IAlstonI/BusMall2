@@ -27,7 +27,7 @@ function ItemImage(name) {
 }
 
 // New Instances
-new ItemImage('one');
+new ItemImage('Chevy Corvette Z06');
 new ItemImage('two');
 new ItemImage('three');
 new ItemImage('four');
