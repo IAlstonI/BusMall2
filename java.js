@@ -102,7 +102,7 @@ var data = {
 function drawChart() {
     var ctx = document.getElementById('voting-chart').getContext('2d');
     finalChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'polarArea',
         data: data,
         options: {
             responsive: false,
