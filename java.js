@@ -28,7 +28,7 @@ function ItemImage(name) {
 
 // New Instances
 new ItemImage('Chevy Corvette Z06');
-new ItemImage('two');
+new ItemImage('Bugatti Divo');
 new ItemImage('three');
 new ItemImage('four');
 new ItemImage('five');
@@ -102,7 +102,7 @@ var data = {
 function drawChart() {
     var ctx = document.getElementById('voting-chart').getContext('2d');
     finalChart = new Chart(ctx, {
-        type: 'pie',
+        type: 'bar',
         data: data,
         options: {
             responsive: false,
